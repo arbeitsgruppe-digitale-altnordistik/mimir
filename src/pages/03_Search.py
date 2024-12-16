@@ -333,8 +333,8 @@ def __search_text_by_mss_step_search() -> None:
     Step 1 of this search: Select manuscript(s).
     """
     __search_step_1(
-        what_sg="Text",
-        what_pl="Texts",
+        what_sg="Manuscript",
+        what_pl="Manuscripts",
         selection_keys=list(handler.manuscripts.keys()),
         search_func=handler.search_texts_contained_by_manuscripts,
         state_func=state.store_txt_by_ms_search_state,
