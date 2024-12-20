@@ -11,7 +11,7 @@ plotly = "*"
 sqlalchemy = "<2"
 sqlmodel = "*"
 statsmodels = "*"
-streamlit = "1.17.0"
+streamlit = "==1.17"
 streamlit-aggrid = "*"
 
 [dev-packages]
